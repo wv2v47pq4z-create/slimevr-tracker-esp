@@ -1,0 +1,30 @@
+{
+  "name": "@prz/agent-core",
+  "version": "1.0.0",
+  "description": "Production-grade agent orchestration middleware with event-driven pipeline architecture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx --test tests/*.ts",
+    "demo": "node --import tsx demo/interactive-demo.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "agent",
+    "pipeline",
+    "orchestration",
+    "llm",
+    "contextual-bandit",
+    "event-driven"
+  ],
+  "author": "PRZ Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {}
+}
